@@ -15,8 +15,7 @@ body{
 
 h2{
     text-align: center;
-    text-decoration: underline;
-    font-size: 3rem;
+    font-size: 2rem;
     padding-bottom: 2rem;
     padding-top: 2rem;
 }
@@ -29,7 +28,6 @@ nav {
     top:0;
     z-index: 10;
 }
-
 .nav-list {
     list-style-type: none;
     margin: 0;
@@ -37,11 +35,9 @@ nav {
     overflow: hidden;
     background: #ffffff;
 }
-
 .nav-list li{
     float: left;
 }
-
 .nav-list a{
     display: inline-block;
     color: #323e2e;
@@ -50,16 +46,13 @@ nav {
     text-align: center;
     text-decoration: none;
 }
-
 #hz-logo{
     padding: 0;
     margin-right: 15px;
 }
-
 .nav-list a:hover{
     background-color: #d5d5d5;
 }
-
 .active{
     background-color: #d1dff2;
 }
@@ -69,14 +62,11 @@ nav {
 #robot{
     margin-top: 40px;
     width:100%;
-    border: 10px;
     padding: 50px;
 }
-
 .index-imgbox01 {
     position: relative;
 }
-
 .index-imgbox01 h1 {
     position: absolute;
     z-index: 3;
@@ -85,7 +75,6 @@ nav {
     font-size: 50px;
     color: white;
 }
-
 .index-imgbox01 p {
     position: absolute;
     z-index: 3;
@@ -94,12 +83,10 @@ nav {
     font-size: 30px;
     color: white;
 }
-
 .index-imgbox01 a{
     text-decoration: underline;
     color: rgb(233, 233, 233);
 }
-
 .index-imgbox01 a:hover{
     color: #96ccf2;
 }
@@ -121,28 +108,21 @@ nav {
     background-color: #d1dff2;
     
 }
-
 .row::after {
     content: "";
     display: table;
     clear: both;
 }
-
 @media screen and (max-width:600px) {
     .column {
         width: 100%;
     }
-}
-.index-middle h2{
-    font-size: 1.5rem;
-    text-decoration: none;
 }
 
 .index-middle p{
     font-size: 1.2rem;
     text-align: center;
 }
-
 .index-middle a:hover{
     background-color: #323e2e;
     border-width: 3px;
@@ -159,7 +139,6 @@ nav {
     text-align: center;
     margin-left: 65px;
 }
-
 .aside-menu {
     list-style: none;
     margin: 0;
@@ -170,7 +149,6 @@ nav {
     display: grid;
     grid-template-columns: auto auto;
 }
-
 .aside-menu a {
     padding: 50px;
     color: #353535;
@@ -179,33 +157,54 @@ nav {
 
 /* Profile page */
 
-.profile-section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    width: 100%;
+.profile{
+    width: 95%;
     height: 100vh;
+    margin: 40px 20px;
+    padding: 50px 20px;
+    position: relative;
+}
+.item1 { grid-area: main; }
+.item2 { grid-area: leftup; }
+.item3 { grid-area: leftdown; }
+.item4 { grid-area: rightup; }
+.item5 { grid-area: rightdown; }
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'main leftup rightup'
+        'main leftdown rightdown';
+    gap: 10px;
+    padding: 10px;
 }
 
-.profile-section h2{
-    font-size: 5rem;
-    text-decoration: none;
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
 }
 
-label{
-    display: block;
-    margin: 0.5rem 0;
-    font-size: 2rem;
-    color:#464646;
-    font-weight: 500;
+.item1 li{
+    list-style: none;
 }
+
+
+/* Dashboard page */
+
+/* Blog page */
+
+/* FAQ page */
 
 .motivation-section{
     padding: 3rem 2rem;
     text-align: center;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
+    border-bottom-style: dashed;
+    border-bottom-color: #2d2e2c;
+    border-bottom-width: 1px;
 }
 
 .motivation-section p{
