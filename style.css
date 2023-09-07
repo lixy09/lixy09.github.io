@@ -26,6 +26,8 @@ h2{
 nav {
     position: fixed;
     width: 100%;
+    top:0;
+    z-index: 10;
 }
 
 .nav-list {
@@ -41,7 +43,7 @@ nav {
 }
 
 .nav-list a{
-    display: block;
+    display: inline-block;
     color: #323e2e;
     padding: 15px 15px;
     margin-left: 15px;
@@ -62,9 +64,51 @@ nav {
     background-color: #d1dff2;
 }
 
-/* index page*/
+/* Index page - First part*/
 
-/* Main page */
+#robot{
+    margin-top: 40px;
+    width:100%;
+    border: 10px;
+    padding: 50px;
+}
+
+.index-imgbox01 {
+    position: relative;
+}
+
+.index-imgbox01 h1 {
+    position: absolute;
+    z-index: 3;
+    left: 130px;
+    top: 150px;
+    font-size: 50px;
+    color: white;
+}
+
+.index-imgbox01 p {
+    position: absolute;
+    z-index: 3;
+    left: 200px;
+    top: 230px;
+    font-size: 30px;
+    color: white;
+}
+
+.index-imgbox01 a{
+    text-decoration: underline;
+    color: rgb(233, 233, 233);
+}
+
+.index-imgbox01 a:hover{
+    color: #96ccf2;
+}
+
+/* Index page - middle part*/
+
+
+
+/* Profile page */
 
 .profile-section{
     display: flex;
