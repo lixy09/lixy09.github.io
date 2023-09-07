@@ -104,9 +104,50 @@ nav {
     color: #96ccf2;
 }
 
-/* Index page - middle part*/
+/* Index page - middle part */
+
+.index-middle{
+    width: 100%;
+    height: 50vh;
+    padding: 0 30px;
+    margin: 0;
+}
+.column {
+    float: left;
+    width: 30%;
+    padding: 20px;
+    margin: 10px;
+    color: #4e4e4e;
+    background-color: #d1dff2;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+
+.index-middle h2{
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.index-middle p{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.index-middle a:hover{
+    border-style: solid;
+}
 
 
+/* Index page - aside menu */
 
 /* Profile page */
 
@@ -189,3 +230,4 @@ footer{
     padding: auto;
     text-align: center;
 }
+
