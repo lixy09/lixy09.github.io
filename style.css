@@ -79,6 +79,7 @@ nav {
     font-size: 50px;
     color: white;
 }
+
 .index-first p {
     position: absolute;
     left: 150px;
@@ -104,7 +105,8 @@ nav {
     padding: 0 30px;
     margin-bottom: 10px;
 }
-.column {
+
+.index-middle-column {
     float: left;
     width: 30%;
     padding: 20px;
@@ -113,13 +115,15 @@ nav {
     background-color: #d1dff2;
     
 }
-.row::after {
+
+.index-middle-row::after {
     content: "";
     display: table;
     clear: both;
 }
+
 @media screen and (max-width:600px) {
-    .column {
+    .index-middle-column {
         width: 100%;
     }
 }
@@ -128,6 +132,7 @@ nav {
     font-size: 1.2rem;
     text-align: center;
 }
+
 .index-middle a:hover{
     background-color: #323e2e;
     border-width: 3px;
@@ -138,29 +143,54 @@ nav {
 
 #hz-logo{
     padding: 0;
-    margin-right: 15px;
-}
-.index-bottom{
-    border-top-style: dashed;
-    border-top-width: 1px;
-    border-top-color: grey;
-    width: 90%;
-    text-align: center;
-    margin-left: 65px;
-}
-.aside-menu {
-    list-style: none;
     margin: 0;
-    padding: 25px;
-    width: 100%;
-    height: 180px;
-    text-align: center;
-    display: grid;
-    grid-template-columns: auto auto;
+    width: 250px;
+    margin-top: 2rem;
 }
+
+.aside-menu {
+    width: 100%;
+    height: 40vh;
+    background-color: #d8dfe4;
+}
+
 .aside-menu a {
     color: #353535;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.aside-menu a:hover{
+    color:#bfbfbf;
+}
+
+.aside-menu-list li{
+    list-style: none;
+}
+
+.aside-menu-column {
+    float: left;
+    width: 30%;
+    margin: 30px 0px 0 40px;
+    padding-left: 40px;
+}
+
+.index-middle-row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width:600px) {
+    .index-middle-column {
+        width: 100%;
+    }
+}
+
+.aside-menu-list h3{
     font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
 }
 
 /* Profile page */
@@ -175,21 +205,21 @@ nav {
     background-size: cover;
 }
 
-.item1 { 
+.profile-grid-item1 { 
     grid-area: main;
     height: 500px
     
 }
-.item2 { 
+.profile-grid-item2 { 
     grid-area: leftup; 
     background-image: url(/profile/resources/ns.jpg);
     background-size: cover;
 }
-.item3 { grid-area: leftdown; }
-.item4 { grid-area: rightup; }
-.item5 { grid-area: rightdown; }
+.profile-grid-item3 { grid-area: leftdown; }
+.profile-grid-item4 { grid-area: rightup; }
+.profile-grid-item5 { grid-area: rightdown; }
 
-.grid-container {
+.profile-grid {
     display: grid;
     grid-template-areas:
         'main leftup rightup'
@@ -198,14 +228,14 @@ nav {
     padding: 10px;
 }
 
-.grid-container div {
+.profile-grid div {
     background-color: rgba(255, 255, 255, 0.5);
     text-align: center;
     padding: 20px 10px;
     font-size: 30px;
 }
 
-.item1 li{
+.profile-grid-item1 li{
     list-style: none;
 }
 
