@@ -5,7 +5,7 @@
 }
 
 html{
-    scroll-behavior: smoot;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -64,15 +64,14 @@ nav {
 
 /* Index page - First part*/
 
-.index-first{
+.index-intro{
     background-image: url(./resources/robot.jpg);
     background-size: cover;
-    height: 80vh;
+    height: 100vh;
     width: 100%;
-    margin-bottom: 30px;
 }
 
-.index-first h1 {
+.index-intro h1 {
     position: absolute;
     left: 100px;
     top: 120px;
@@ -80,20 +79,30 @@ nav {
     color: white;
 }
 
-.index-first p {
+.index-intro h2{
+    position: absolute;
+    left: 220px;
+    top: 170px;
+    font-size: 25px;
+    font-weight: 300;
+    font-style: italic;
+    color: rgb(227, 252, 221);
+}
+
+.index-intro p {
     position: absolute;
     left: 150px;
-    top: 200px;
+    top: 250px;
     font-size: 30px;
     color: white;
 }
 
-.index-first a{
+.index-intro a{
     text-decoration: underline;
     color: rgb(233, 233, 233);
 }
 
-.index-first a:hover{
+.index-intro a:hover{
     color: #96ccf2;
 }
 
@@ -101,42 +110,57 @@ nav {
 
 .index-middle{
     width: 100%;
-    height: 30vh;
-    padding: 0 30px;
-    margin-bottom: 10px;
+    height: 100vh;
+    padding-left: 20px;
+    padding-top: 150px;
 }
 
 .index-middle-column {
     float: left;
-    width: 30%;
-    padding: 20px;
-    margin-left: 30px;
+    margin-left: 50px;
     color: #4e4e4e;
-    background-color: #d1dff2;
+}
+
+#index-middle-column1{
+    width: 20%;
+    height: 200px;
     
 }
 
-.index-middle-row::after {
-    content: "";
-    display: table;
-    clear: both;
+#why{
+    border-left: 8px solid #517bae;
+    margin-bottom: 20px;
+    padding-left: 10px;
 }
 
-@media screen and (max-width:600px) {
-    .index-middle-column {
-        width: 100%;
-    }
+.index-middle-column h1{
+    font-size: 40px;
 }
 
-.index-middle p{
-    font-size: 1.2rem;
+.index-middle-column img{
+    width: 230px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#index-middle-column2{
+    width: 65%;
+    height: 400px;
+    background-color: #d1dff2;
+    border-radius: 20px;
+    margin-left: 60px;
+}
+
+.index-middle-column h2{
+    font-size: 25px;
+    padding: 30px 0 0 0;
     text-align: center;
 }
 
-.index-middle a:hover{
-    background-color: #323e2e;
-    border-width: 3px;
-    border-style: solid;
+.index-middle-column p{
+    font-size: 20px;
+    padding: 0 20px;
+    text-indent: 20px;
 }
 
 /* Index page - aside menu */
@@ -150,7 +174,7 @@ nav {
 
 .aside-menu {
     width: 100%;
-    height: 40vh;
+    height: 35vh;
     background-color: #d8dfe4;
 }
 
@@ -175,23 +199,34 @@ nav {
     padding-left: 40px;
 }
 
-.index-middle-row::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-@media screen and (max-width:600px) {
-    .index-middle-column {
-        width: 100%;
-    }
-}
-
-.aside-menu-list h3{
+.aside-menu-column h3{
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 10px;
 }
+
+#gmail, #whatsapp, #ins{
+    margin-right: 20px;
+    width: 22px;
+    transition: 0.5s;
+}
+
+#gmail:hover{
+    width: 30px;
+}
+
+#whatsapp:hover{
+    width: 30px;
+}
+
+#ins:hover{
+    width: 30px;
+}
+
+
+
+
+
 
 /* Profile page */
 
@@ -201,7 +236,7 @@ nav {
     margin: 40px 0;
     padding: 50px 0;
     position: relative;
-    background-image: url(resources/forbidden2.jpg);
+    background-image: url(resources/forbiddencity.jpg);
     background-size: cover;
 }
 
@@ -301,7 +336,7 @@ fieldset p{
 }
 
 footer{
-    margin: auto;
+    margin: 10px;
     padding: auto;
     text-align: center;
 }
