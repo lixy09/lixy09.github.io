@@ -338,15 +338,49 @@ nav {
 
 .dashboard-main{
     width: 100%;
-    padding-top: 50px;  
+    margin: 80px auto;
 }
+
+.dashboard-main h1{
+    font-size: 50px;
+    margin: 0 50px;
+    border-left: 8px solid #517bae;
+}
+
+.dashboard-overview{
+    margin: 30px 100px;
+    font-size: 20px;
+}
+
+.progress-container{
+    margin: 10px auto;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    background-color: rgb(222, 228, 247);
+    display: flex;
+    align-items: center;
+}
+
+.ec-progress{
+    width: 5%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #517bae;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.dashboard-overview #note{
+    font-size: 15px;
+}
+
 
 .table-year01 {
     text-align: center;
-}
-
-.year01-overview{
-    margin: 50px auto;
 }
 
 .year01-details{
@@ -355,35 +389,45 @@ nav {
 .year01-details th, td{
     padding: 10px 25px;
 }
-.block-row{
+
+.title-row{
     background-color: #2f3e4e;
     color: white;
-    font-size:42px;
-}
-.course-row{
-    background-color:  #526d8a;
-    color: white;
-    font-size:20px;
+    font-size: 30px;
 }
 
-.exam-row{
-    background-color: #98c7f9dc;
-    color:#444;
-    font-size:20px;
-}
-.exam-row p{
-    padding:5px;
-}
 .result-row{
     background-color: #c1dcf9b1;
     color:#444;
     font-size:20px;
 }
 
+/* FAQ page */
+
+.faq {
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+}
+
+.faq h1{
+    border-left: 8px solid #517bae;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.faq summary{
+    font-size: 25px;
+    margin: 10px;
+}
+
+#faq-answers {
+    margin-left: 30px;
+    margin-top: 8px;
+    font-size: 20px;
+}
 
 /* Blog page */
-
-/* FAQ page */
 
 .motivation-section{
     padding: 3rem 2rem;
