@@ -16,12 +16,13 @@ body{
 section{
     width: 100%;
     height: 100vh;
+    margin-top: 50px;
 }
 
 h2{
     text-align: center;
     font-size: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     padding-top: 2rem;
 }
 
@@ -147,10 +148,11 @@ nav {
 
 #index-middle-column2{
     width: 65%;
-    height: 400px;
+    height: 380px;
     background-color: #d1dff2;
     border-radius: 20px;
     margin-left: 60px;
+    padding-top: 10px;
 }
 
 .index-middle-column p{
@@ -248,7 +250,6 @@ nav {
 .aboutme h1{
     font-size: 40px;
     font-weight: bolder;
-
 }
 
 .aboutme p{
@@ -434,6 +435,11 @@ nav {
 
 .blog-grid a{
     text-decoration: none;
+    color: black;
+}
+
+.blog-grid a:hover{
+    color: #517bae;
 }
 
 .blog-grid-item{
@@ -451,23 +457,23 @@ nav {
 
 /* Blog - Study Choice page */
 
-.motivation{
-    padding: 3rem 2rem;
-    text-align: center;
-    border-bottom-style: dashed;
-    border-bottom-color: #2d2e2c;
-    border-bottom-width: 1px;
+.studychoice{
+        height: auto;
 }
 
-.motivation p{
+article{
+    text-align: left;
+    width: 60%;
+    align-items: center;
+    margin: auto;
+    height: auto;
+}
+
+article p{
     color:#464646;
-    font-size: 1.5rem;
-    font-weight: 500;
-}
-
-.future-goal{
-    width: 90%;
-    padding-left: 6rem;
+    font-size: 20px;
+    text-indent: 23px;
+    padding-bottom: 10px;
 }
 
 /* Blog - SWOT */
@@ -507,6 +513,12 @@ fieldset p{
 }
 
 /* Blog - previous experience */
+
+/* Blog - first feedback */
+
+.feedback{
+    height: auto;
+}
 
 footer{
     margin: 10px;
