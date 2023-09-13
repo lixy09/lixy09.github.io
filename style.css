@@ -13,6 +13,11 @@ body{
     color: #323e2e;
 }
 
+section{
+    width: 100%;
+    height: 100vh;
+}
+
 h2{
     text-align: center;
     font-size: 2rem;
@@ -67,8 +72,6 @@ nav {
 .index-intro{
     background-image: url(./resources/robot.jpg);
     background-size: cover;
-    height: 100vh;
-    width: 100%;
 }
 
 .index-intro h1 {
@@ -109,8 +112,6 @@ nav {
 /* Index page - middle part */
 
 .index-middle{
-    width: 100%;
-    height: 100vh;
     padding-left: 20px;
     padding-top: 150px;
 }
@@ -152,15 +153,9 @@ nav {
     margin-left: 60px;
 }
 
-.index-middle-column h2{
-    font-size: 25px;
-    padding: 30px 0 0 0;
-    text-align: center;
-}
-
 .index-middle-column p{
     font-size: 20px;
-    padding: 0 20px;
+    padding: 13px 15px 0 15px; 
     text-indent: 20px;
 }
 
@@ -228,8 +223,6 @@ nav {
 /* Profile page */
 
 .profile-intro{
-    width: 100%;
-    height: 100vh;
     position: relative;
     overflow: hidden;
     display: flex;
@@ -267,8 +260,6 @@ nav {
 }
 
 .profile-hobby{
-    width:100%;
-    height: 100vh;
     margin: 50px 0 20px 0;
 }
 
@@ -337,7 +328,7 @@ nav {
 /* Dashboard page */
 
 .dashboard-main{
-    width: 100%;
+    height: auto;
     margin: 80px auto;
 }
 
@@ -372,8 +363,6 @@ nav {
     align-items: center;
 }
 
-
-
 .dashboard-overview #note{
     font-size: 15px;
 }
@@ -405,6 +394,7 @@ nav {
 /* FAQ page */
 
 .faq {
+    height: 50vh;
     margin-top: 100px;
     margin-left: 40px;
     margin-bottom: 60px;
@@ -427,19 +417,49 @@ nav {
     font-size: 20px;
 }
 
-/* Blog page */
+/* Blog page - main page*/
 
-.motivation-section{
+.blog{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    height: auto;
+}
+
+.blog-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+    justify-content: center;
+}
+
+.blog-grid a{
+    text-decoration: none;
+}
+
+.blog-grid-item{
+    background-color: rgba(190, 213, 248, 0.3);
+    text-align: center;
+    height: auto;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.blog img{
+    width: auto;
+    height: 200px;
+}
+
+/* Blog - Study Choice page */
+
+.motivation{
     padding: 3rem 2rem;
     text-align: center;
-    width: 100%;
-    height: 90vh;
     border-bottom-style: dashed;
     border-bottom-color: #2d2e2c;
     border-bottom-width: 1px;
 }
 
-.motivation-section p{
+.motivation p{
     color:#464646;
     font-size: 1.5rem;
     font-weight: 500;
@@ -450,7 +470,9 @@ nav {
     padding-left: 6rem;
 }
 
-.swot-section{
+/* Blog - SWOT */
+
+.swot{
     padding: 2rem 3rem 3rem 2rem;
     text-align: center;
     width: 100%;
@@ -459,7 +481,7 @@ nav {
 
 .swot-grid{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(1rem, 1fr));
+    grid-template-columns: auto auto;
     grid-gap: 3rem;
     width: 100%;
     max-width: 100rem;
@@ -483,6 +505,8 @@ fieldset p{
     color:#464646;
     font-size: 1.3rem;
 }
+
+/* Blog - previous experience */
 
 footer{
     margin: 10px;
