@@ -316,14 +316,14 @@ nav {
 
 .profile-grid-item2 { 
     grid-area: leftup; 
-    background-image: url(/profile/resources/ns.jpg);
+    background-image: url(/resources/ns.jpg);
     background-size: cover;
     width: 400px;
     height: 200px;
 }
 .profile-grid-item3 { 
     grid-area: leftdown; 
-    background-image: url(/profile/resources/tvshow.jpg);
+    background-image: url(/resources/tvshow.jpg);
     background-size: cover;
     width: 400px;
     height: 400px;
@@ -331,14 +331,14 @@ nav {
 }
 .profile-grid-item4 { 
     grid-area: rightup; 
-    background-image: url(/profile/resources/skateboard.jpg);
+    background-image: url(/resources/skateboard.jpg);
     background-size: cover;
     width: 300px;
     height: 400px;
 }
 .profile-grid-item5 { 
     grid-area: rightdown; 
-    background-image: url(/profile/resources/cycling.jpg);
+    background-image: url(/resources/cycling.jpg);
     background-size: cover;
     width: 300px;
     height: 200px;
@@ -414,7 +414,7 @@ nav {
 /* FAQ page */
 
 .faq {
-    height: 50vh;
+    height: auto;
     margin-top: 100px;
     margin-left: 40px;
     margin-bottom: 60px;
