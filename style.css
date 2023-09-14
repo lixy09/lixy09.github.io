@@ -55,7 +55,6 @@ nav {
     display: inline-block;
     color: #323e2e;
     padding: 15px 15px;
-    margin-left: 15px;
     text-align: center;
     text-decoration: none;
 }
@@ -64,9 +63,29 @@ nav {
     background-color: #d5d5d5;
 }
 
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+.dropdown-content a{
+    display: block;
+    color: #323e2e;
+    text-align: left;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
 .active{
     background-color: #d1dff2;
 }
+
+
 
 /* Index page - First part*/
 
