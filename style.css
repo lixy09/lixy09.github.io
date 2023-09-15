@@ -19,6 +19,12 @@ section{
     margin-top: 50px;
 }
 
+h1{
+    border-left: 8px solid #517bae;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
 h2{
     text-align: center;
     font-size: 2rem;
@@ -44,7 +50,7 @@ nav {
     display: inline-flex;
 }
 
-.nav-list h1{
+.nav-list title{
     display: inline-block;
     font-family:'Courier New', Courier, monospace;
     font-size: 30px;
@@ -100,6 +106,7 @@ nav {
     top: 120px;
     font-size: 50px;
     color: white;
+    border:none;
 }
 
 .index-intro h2{
@@ -133,7 +140,8 @@ nav {
 
 .index-middle{
     padding-left: 20px;
-    padding-top: 150px;
+    padding-top: 80px;
+    height: 80vh;
 }
 
 .index-middle-column {
@@ -147,13 +155,7 @@ nav {
     height: 200px;
     
 }
-
-#why{
-    border-left: 8px solid #517bae;
-    margin-bottom: 20px;
-    padding-left: 10px;
-}
-
+    
 .index-middle-column h1{
     font-size: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -266,7 +268,7 @@ nav {
     color:rgb(0, 0, 0);
 }
 
-.aboutme h1{
+.aboutme h2{
     font-size: 40px;
     font-weight: bolder;
 }
@@ -276,7 +278,7 @@ nav {
     font-weight: 500;
     font-style: italic;
     width: 80%;
-    margin: 10px auto;
+    margin: 5px auto;
 }
 
 .profile-hobby{
