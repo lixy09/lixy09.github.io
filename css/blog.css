@@ -1,0 +1,36 @@
+/* Blog page - main page*/
+
+.blog{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    height: auto;
+}
+
+.blog-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+    justify-content: center;
+}
+
+.blog-grid a{
+    text-decoration: none;
+    color: black;
+}
+
+.blog-grid a:hover{
+    color: #517bae;
+}
+
+.blog-grid-item{
+    background-color: rgba(190, 213, 248, 0.3);
+    text-align: center;
+    height: auto;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.blog img{
+    width: auto;
+    height: 200px;
+}

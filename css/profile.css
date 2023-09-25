@@ -1,0 +1,103 @@
+/* intro */
+.profile-intro{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.beijing-img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+}
+
+.aboutme{
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    color:rgb(0, 0, 0);
+}
+
+.aboutme h2{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.aboutme p{
+    font-size: 22px;
+    font-weight: 500;
+    font-style: italic;
+    width: 80%;
+    margin: 5px auto;
+}
+
+/* Hobbies */
+
+.profile-hobby{
+    margin: 50px 0 20px 0;
+}
+
+.profile-grid {
+    display: grid;
+    grid-template-areas:
+        'main leftup rightup'
+        'main leftdown rightup'
+        'main leftdown rightdown';
+    gap: 30px 0;
+    padding: 10px;
+    margin: auto 50px;
+}
+
+.profile-grid div {
+    border-radius: 10px;
+}
+
+.profile-grid-item1 { 
+    grid-area: main;
+    height: 200px;
+}
+
+.profile-grid-item1 h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    border-left: 8px solid #517bae;
+}
+
+.profile-grid-item1 li{
+    margin-left: 50px;
+    font-size: 22px;
+}
+
+.profile-grid-item2 { 
+    grid-area: leftup; 
+    background-image: url(/resources/ns.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+}
+.profile-grid-item3 { 
+    grid-area: leftdown; 
+    background-image: url(/resources/tvshow.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+
+}
+.profile-grid-item4 { 
+    grid-area: rightup; 
+    background-image: url(/resources/skateboard.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+}
+.profile-grid-item5 { 
+    grid-area: rightdown; 
+    background-image: url(/resources/cycling.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}

@@ -1,0 +1,88 @@
+/* Index page - First part*/
+
+.index-intro{
+    background-image: url(/resources/robot.jpg);
+    background-size: cover;
+}
+
+.index-intro h1 {
+    position: absolute;
+    left: 100px;
+    top: 120px;
+    font-size: 50px;
+    color: white;
+    border:none;
+}
+
+.index-intro h2{
+    position: absolute;
+    left: 220px;
+    top: 170px;
+    font-size: 25px;
+    font-weight: 300;
+    font-style: italic;
+    color: rgb(227, 252, 221);
+}
+
+.index-intro p {
+    position: absolute;
+    left: 150px;
+    top: 250px;
+    font-size: 30px;
+    color: white;
+}
+
+.index-intro a{
+    text-decoration: underline;
+    color: rgb(233, 233, 233);
+}
+
+.index-intro a:hover{
+    color: #96ccf2;
+}
+
+/* Index page - middle part */
+
+.index-middle{
+    padding-left: 20px;
+    padding-top: 80px;
+    height: 80vh;
+}
+
+.index-middle-column {
+    float: left;
+    margin-left: 50px;
+    color: #4e4e4e;
+}
+
+#index-middle-column1{
+    width: 20%;
+    height: 200px;
+    
+}
+    
+.index-middle-column h1{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.index-middle-column img{
+    width: 230px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#index-middle-column2{
+    width: 65%;
+    height: 380px;
+    background-color: #d1dff2;
+    border-radius: 20px;
+    margin-left: 60px;
+    padding-top: 10px;
+}
+
+.index-middle-column p{
+    font-size: 20px;
+    padding: 13px 15px 0 15px; 
+    text-indent: 20px;
+}

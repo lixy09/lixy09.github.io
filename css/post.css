@@ -1,0 +1,53 @@
+main {
+    height: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+article {
+    text-align: left;
+    width: 60%;
+    align-items: center;
+    margin: auto;
+    height: auto;
+}
+
+article p {
+    color: #464646;
+    font-size: 20px;
+    text-indent: 23px;
+    padding-bottom: 10px;
+}
+
+/* Blog - SWOT */
+
+.swot {
+    height: 100vh;
+}
+
+.swot-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 3rem;
+    width: 100%;
+    max-width: 100rem;
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+}
+
+fieldset {
+    margin: 0;
+    width: 30rem;
+    border-width: 3px;
+    border-color: #0000008f;
+}
+
+legend {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+fieldset p {
+    color: #464646;
+    font-size: 1.3rem;
+}
