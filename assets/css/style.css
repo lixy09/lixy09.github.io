@@ -37,17 +37,6 @@ h2{
     padding-top: 2rem;
 }
 
-@media(max-width: 768px){
-    section{
-        width: 358px;
-    }
-}
-@media (max-width: 1199px) and (min-width: 769px) {
-    section{
-        width: 675px;
-    }
-}
-
 /* navigation bar*/
 
 nav {
