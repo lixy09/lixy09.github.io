@@ -1,7 +1,7 @@
 /* Index page - First part*/
 
 .index-intro{
-    background-image: url(/resources/robot.jpg);
+    background-image: url(/assets/img/robot.jpg);
     background-size: cover;
 }
 

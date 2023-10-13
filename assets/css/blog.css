@@ -8,7 +8,7 @@
 
 .blog-grid{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     gap: 50px;
     justify-content: center;
 }
@@ -18,19 +18,37 @@
     color: black;
 }
 
-.blog-grid a:hover{
-    color: #517bae;
-}
-
 .blog-grid-item{
-    background-color: rgba(190, 213, 248, 0.3);
-    text-align: center;
-    height: auto;
-    width: 300px;
+    background-color: rgba(190, 213, 248, 0.2);
+    padding: 20px;
+    height: 230px;
+    width: 330px;
     border-radius: 20px;
 }
 
-.blog img{
-    width: auto;
-    height: 200px;
+.blog-grid-item h3{
+    font-size: 1.5rem;
 }
+
+.blog-grid-item h4{
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.blog-grid-item p{
+    height: 30px;
+    font-size: 1rem;
+    margin-bottom: 70px;
+}
+
+.readmore{
+    font-size: 1.1rem;
+}
+
+.readmore:hover{
+    color: #517bae;
+}
+
+
+
+

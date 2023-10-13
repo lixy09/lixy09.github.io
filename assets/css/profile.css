@@ -74,14 +74,14 @@
 
 .profile-grid-item2 { 
     grid-area: leftup; 
-    background-image: url(/resources/ns.jpg);
+    background-image: url(/assets/img/ns.jpg);
     background-size: cover;
     width: 400px;
     height: 200px;
 }
 .profile-grid-item3 { 
     grid-area: leftdown; 
-    background-image: url(/resources/tvshow.jpg);
+    background-image: url(/assets/img/tvshow.jpg);
     background-size: cover;
     width: 400px;
     height: 400px;
@@ -89,14 +89,14 @@
 }
 .profile-grid-item4 { 
     grid-area: rightup; 
-    background-image: url(/resources/skateboard.jpg);
+    background-image: url(/assets/img/skateboard.jpg);
     background-size: cover;
     width: 300px;
     height: 400px;
 }
 .profile-grid-item5 { 
     grid-area: rightdown; 
-    background-image: url(/resources/cycling.jpg);
+    background-image: url(/assets/img/cycling.jpg);
     background-size: cover;
     width: 300px;
     height: 200px;
